@@ -1,0 +1,572 @@
+
+
+body {
+    
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    
+
+
+    
+}
+
+
+
+
+.menu  {
+        
+        
+    width: 100%;
+    height: 26vh;
+    background-color: #512da8;
+    
+    top: 0%;
+    
+
+        
+}
+@media screen and (max-width: 450px) {
+
+    .menu{
+        height: 10vh;
+    }
+    
+}
+.haut{
+    width: 100%;
+    height: 30px;
+    background-color: white;
+
+}
+@media screen and (max-width: 450px) {
+    .haut li{
+        height: 20px;
+    }
+
+    
+}
+.haut ul{
+    display: flex;
+    list-style: none;
+    
+}
+.haut li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.haut li {
+    cursor: pointer;
+    position: relative;
+    transition: 0.5s;
+}
+@media screen and (max-width: 450px) {
+    .haut li{
+        font-size: 10px;
+
+    }
+
+    
+}
+.haut li:after {
+    
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    
+    transition: 0.5s;
+}
+.haut:hover {
+    background-color: #755ab6;
+}
+
+
+.haut:hover li:after {
+    opacity: 1;
+}
+
+
+
+
+
+
+.haut img{
+    float: inline-start;
+    width: 22px;
+    
+    
+    
+}
+@media screen and (max-width: 450px) {
+    .haut img{
+        width: 15px;
+    }
+    
+}
+
+.titre h1{
+    text-align: right;
+
+    
+    position: relative;
+    font-family: "Montserrat",sans-serif;
+    font-weight: bolder;
+    font-size: 27px;
+    font-style :italic;
+    color: rgb(216, 202, 175);
+    margin-right: 23px;
+    padding-top: -10px;
+
+ 
+}
+@media screen and (max-width: 450px) {
+    .titre h1{
+        font-size: 8px;
+        margin-right: 10px;
+        padding-top: -40px; 
+    }
+    
+}
+
+
+
+img{
+    bottom: 25px;
+}
+
+
+
+
+
+
+
+#imageHamburger{
+    float: left;
+    padding: 30px;
+    border-radius: 10px;
+    width: 40px;
+    
+    
+  
+}
+@media screen and (max-width: 450px) {
+    #imageHamburger{
+        padding: 10px;
+        border-radius: 2px;
+        width: 15px;
+    }
+    
+    
+}
+.titre #scanner  {
+    float: right;
+    width: 50px ;
+    margin-right: 90px;
+    padding-top: -30px;
+    
+    
+
+}
+@media screen and (max-width: 450px) {
+    .titre #scanner{
+        border-radius: 0.5px;
+        width: 20px;
+        padding-top: -80px;
+        margin-right: 30px;
+    }
+    
+    
+}
+
+
+nav {
+    height: 100vh;
+    display: none;
+    width: 30%;
+    position: absolute;
+    z-index: 10;
+    opacity: 80%;
+    background-color: whitesmoke;
+    
+   
+ 
+}
+@media screen and (max-width: 450px){
+    nav{
+        height: 50vh;
+        width: 40%;
+    }
+    
+}
+
+ 
+
+nav li a{
+    padding: 0px 40px;
+    font-size: 20px;
+    text-align: justify;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+   
+
+}
+
+
+@media screen and (max-width: 450px){
+    nav li a{
+        padding: 0 50px;
+        font-size: 15px;
+        
+    }
+    
+}
+#fermer{
+    width: 30px;
+    height: 25px;
+    position: relative;
+
+    
+    
+    
+   
+  
+}
+
+
+#accueil{
+    width: 30px;
+    height: 25px;
+    position: relative;
+
+   
+  
+}
+#visite{
+    width: 30px;
+    height: 25px;
+    position: relative;
+    
+   
+  
+}
+#informer{
+    width: 30px;
+    height: 25px;
+    position: relative;
+    
+   
+  
+}
+
+
+section h1{
+    text-align: start;
+    color: wheat;
+    bottom: 50px;
+}
+@media screen and (max-width: 450px) {
+    section{
+        width: 10px;
+    }
+
+    
+}
+.contenu1{
+    
+    opacity: 0;
+
+    animation: fadeInOut 9s infinite;
+
+
+
+}
+@media screen and (max-width: 450px) {
+    .contenu1{
+        font-size: 18px;
+    }
+
+    
+}
+.contenu1:nth-child(1){
+    animation-delay: 0s;
+}
+.contenu1:nth-child(2){
+    animation-delay: 3s;
+}
+.contenu1:nth-child(3){
+    animation-delay: 6s;
+}
+
+
+
+@keyframes fadeInOut{
+    0%, 100%{
+        opacity: 0;
+    }
+    10%, 90%{
+        opacity: 1;
+    }
+}
+h2{
+    color: whitesmoke;
+}
+@media screen and (max-width: 450px) {
+    h2{
+        font-size: 15px;
+    }
+
+    
+}
+section{
+    height: auto;
+    width: auto;
+    background-image:url(maison.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+    margin: 0;
+    
+    
+}
+@media screen and (max-width: 450px) {
+    section{
+        height: 100vh;
+        width: 407px;
+
+    }
+
+    
+}
+.section{
+    padding: 20px 120px 0 120px;
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (max-width: 450px) {
+    .section{
+        padding: 5px 20px 0 20px;
+    }
+
+    
+}
+.list-box{
+    width: auto;
+    height: auto;
+    display: grid;
+    padding: 0 0 60px 0;
+    margin: 0;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill,30%);
+    grid-gap: 20px
+}
+@media screen and (max-width: 450px) {
+    .list-box{
+        display: flex;
+    
+        grid-gap: 8px
+        
+    }
+}
+.list-box .box{
+
+    background-color: white;
+    border-radius: 4px;
+    padding-top: 7px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 200px;
+    box-shadow: 10px 5px 5px rgb(0,0,0,75);
+    height: auto;
+    clear: both;
+    max-width:fit-content;
+    max-height: fit-content;
+
+}
+
+@media screen and (max-width: 450px) {
+    .list-box .box{
+
+        
+        border-radius: 2px;
+        
+        margin-top: 100px;
+        box-shadow: 0 0 2px rgba(0, 0, 0 , 0 ,1);
+        height: 50px;
+        width: 100px;
+
+        padding-top: 3px;
+        padding-bottom: 100px;
+        padding-left: 10px;
+        padding-right: 10px;
+        
+        
+        
+    
+    }
+    
+}
+.box h3{
+    text-align: center;
+    font-size: 25px;
+    color: #512da8;
+    padding-top: 5%;
+}
+.box p {
+    text-align: center;
+    
+    font-size: 20px;
+}
+@media screen and (max-width: 450px) {
+    .box p {
+        
+        margin-bottom: 50px;
+        font-size: 10px;
+    }
+    .box h3{
+        font-size: 10px;
+    }
+
+
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 30px 100px;
+    border-top: 1px dashed black ;
+}
+footer h3{
+    color: white;
+    border-bottom: 2px solid rgb(22, 19, 19);
+}
+.contenu{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 50px;
+    justify-items: center;
+    max-width: 900px;
+    margin: 0 auto 80px auto;
+}
+.bloc{
+    width: max-content;
+}
+.bloc  > *{
+    display: block;
+    width: max-content;
+}
+.bloc img{
+    width: 15px;
+    margin: 4px 2px;
+}
+.bloc > h3{
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.bloc a{
+    padding: 0px 3px;
+    margin: 10px;
+    text-decoration: none;
+}
+@media screen and (max-width: 450px) {
+    .bloc{
+        align-items: center;
+    }
+    
+}
+
+button {
+    display: inline-block;
+    background-color: black;
+    border-radius: 100px;
+    border: 4px double #cccccc;
+    color: white;
+    padding: 15px;
+    font-size: 28px;
+        
+    
+    margin-top: 15px;
+    transition: all 0.5s;
+    cursor: pointer;
+        
+    float: left;
+}
+button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+button span:after {
+    content: "\00bb";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+button:hover {
+    background-color: rgb(157, 157, 173);
+}
+button:hover span {
+    padding-right: 25px;
+}
+
+button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+
+.réseaux {
+    
+    background-color: white;
+
+    padding: 3px;
+    border-radius: 2px;
+    transition: all 0.5s;
+    cursor: pointer;
+
+}
+
+.réseaux:hover {
+    background-color: black;
+}
+.text-white {
+    color: black;
+}
+.text-white:hover {
+    color: white;
+}
+
+.uppercase {
+    font-family: Rubik,sans-serif;
+}
+
+
+.block {
+    display: inline-flex;
+    margin: 20px;
+
+}	
+@media screen and(max-width:450px) {
+    .contenu{
+        justify-items: start;
+    }
+    
+}
+@media screen and(max-width:450px) {
+    footer{
+        padding: 30px;
+    }
+}
+.mentions a{
+    margin-bottom: 0%;
+    margin-top:  100px;
+    text-decoration: none;
+
+}

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto&display=swap" rel="stylesheet">
+    <title>Biens immobiliers</title>
+    
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <header class="header">
+        <div class="menu">
+            <div class="haut">
+                <ul>
+                    <li>
+                        <a href="page connexion.html">Espace personel</a>
+                        <img src="connexion.png" >
+                    </li>
+                </ul>
+            </div>
+            <div class="header_c">
+                <img src="Hamburger.png"  id="imageHamburger">
+            </div>
+            <div class="titre">
+                <h1>SCAN HABITAT</h1>
+                <img src="qrcode.png"  id="scanner">
+            </div>
+                
+            </div>
+        </div>
+    </header>
+
+    <nav id="barre_nav">
+        <div>
+            <li>
+                <a href="">Fermer</a>
+            </li>
+            <img src="fermer.png" id="fermer">
+        </div>
+        <div>
+            <li>
+                <a href="index.html" >Accueil</a>
+            </li>
+            <img src="accueil.png" id="accueil" >
+        </div>
+        <div>
+            <li>
+                <a href="visite.html" >Visiter</a>
+            </li>
+            <img src="visite.png" id="visite">
+            
+        </div>
+    </nav>
+
+    <section class="section"><form method="post" action="filter_annonces.php">
+        <label for="ville">Ville:</label>
+        <select id="ville" name="ville">
+            <option value="">Toutes les villes</option>
+            <option value="Nogent-sur-Marne">Nogent-sur-Marne</option>
+            <option value="Draveil">Draveil</option>
+            <option value="Boissy-saint-léger">Boissy-saint-léger</option>
+            <option value="Saint denis">Saint denis</option>
+            <option value="Saint maur">Saint maur</option>
+        </select>
+        <br>
+        <label for="prix_min">Prix minimum:</label>
+        <input type="number" id="prix_min" name="prix_min" min="0">
+        <br>
+        <label for="prix_max">Prix maximum:</label>
+        <input type="number" id="prix_max" name="prix_max" min="0">
+        <br>
+        <label for="surface_min">Surface minimum (m²):</label>
+        <input type="number" id="surface_min" name="surface_min" min="0">
+        <br>
+        <label for="surface_max">Surface maximum (m²):</label>
+        <input type="number" id="surface_max" name="surface_max" min="0">
+        <br>
+        <button type="submit">Filtrer</button>
+    </form>
+        
+        <div  class="cadrage">
+    
+            <h1></h1>
+            <div class="cadrage-list">
+                <div class="cadre">
+                    <img src="image1.jpg" >
+                    <p></p>
+                    <span></span>
+                    <button class="link"><a href="informations_maison1.html">Maison1</a></button>
+                </div>
+                
+                <div class="cadre">
+                    <img src="image2.jpg" >
+                    <p></p>
+                    <span></span>
+                    <button class="link"><a href="informations_maison2.html">Maison2</a></button>
+                </div>
+
+                <div class="cadre">
+                    <img src="image3.jpg" >
+                    <p></p>
+                    <span></span>
+                    <button class="link"><a href="informations_maison3.html">Maison3</a></button>
+                </div>
+
+                <div class="cadre">
+                    <img src="image4.jpg" >
+                    <p></p>
+                    <span></span>
+                    <button class="link"><a href="informations_maison4.html">Maison4</a></button>
+                </div>
+                <div class="cadre">
+                    <img src="image5.jpg" >
+                    <p></p>
+                    <span></span>
+                    <button class="link"><a href=""><a href="informations_maison5.html">Maison5</a></button>
+                </div>
+                <div class="cadre">
+                    <img src="image6.jpg" >
+                    <p></p>
+                    <span></span>
+                    <button class="link"><a href="informations_maison6.html">Maison6</a></button>
+                </div>
+                
+            </div>
+        </div>
+        </section>
+                
+        
+                    
+
+    
+
+    <footer>
+        <div class="contenu">
+            <div class="bloc">
+                <h3>Contactez Nous</h3>
+                <p>Nous nous ferions un plaisir de</p>
+                <p> vous acceuillir dans nos locaux </p>
+                <p> pour discuter de votre projet </p>
+                
+                <button>
+                    <span class="listes-contact">Prendre RDV</span>
+                </button>
+
+            </div>
+            <div class="bloc">
+                <h3>A propos de Nous</h3>
+                    <p><ion-icon name="call"></ion-icon>  06 63 16 72 80</p>
+                    <P><ion-icon name="mail-unread"></ion-icon>Contact@quovadev.com</P>
+                    <p><ion-icon name="pin"></ion-icon> 70 Avenue du Général de 
+                    <br>Gaulle, 94000 Creteil</p>
+
+
+            </div>
+            <div class="bloc">
+                <h3>Nos réseaux</h3>
+                
+                    <a class=" réseaux uppercase text-white" href=""><img src="facebook.png">Facebook</a>
+                    <br><br><a class=" réseaux uppercase text-white" href=""> <img src="insta.png">Instagram</a>
+                    <br><br><a class=" réseaux uppercase text-white" href=""> <img src="linkedin.png">Linkedin</a>
+                    <br><br><a class=" réseaux uppercase text-white" href=""> <img src="youtube.jpg">Youtube</a>
+                    <br><br><a class=" réseaux uppercase text-white" href=""> <img src="tiktok.png">TikTok</a>
+                </ul>
+
+            </div>
+            <div class="mentions">
+                <a href="mentionslégales.html"></a>
+            </div>
+            
+            
+
+        </div>
+        
+    
+    </footer>
+    
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="fonction.js"></script>
+    
+</body>
+</html>

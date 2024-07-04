@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Conteneur principal */
+.container {
+    max-width: 400px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style pour le titre principal */
+.titre {
+    width: 45%;
+}
+h1 {
+    float: left; /* Alignement à gauche */
+    color: #4B0082; /* Couleur violet foncé */
+    margin-right: 50px;
+    font-size: 24px;
+    margin-top: 0; /* Supprime la marge en haut */
+}
+
+/* Style pour les étiquettes */
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+    color: #4B0082; /* Couleur violet foncé */
+}
+
+/* Style pour les champs de saisie */
+input[type="text"],
+input[type="number"],
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+/* Style pour le bouton de soumission */
+input[type="submit"] {
+    width: 100%;
+    background-color: #8A2BE2; /* Couleur violet moyen */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Changement de couleur du bouton au survol */
+input[type="submit"]:hover {
+    background-color: #6A0DAD; /* Couleur violet foncé */
+}
+
+/* Style pour le paragraphe */
+p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+/* Style pour les liens */
+a {
+    color: #8A2BE2; /* Couleur violet moyen */
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* Changement de style des liens au survol */
+a:hover {
+    text-decoration: underline;
+}
+
+.formulaire {
+    width: 50%;
+    
+}
